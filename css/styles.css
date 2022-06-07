@@ -1,0 +1,82 @@
+/* основной цвет текста  #212121 */
+/* вторичный цвет текста #757575 */
+/* контакты в подвале rgba(255, 255, 255, 0.6); */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+
+/* Шапка */
+header, .card {
+    background-color: #FFFFFF;
+}
+.logo {
+    color: #2196F3;
+}
+.logo-back {
+   color: #212121; 
+}
+.link {
+    color: #212121;
+}
+.link:hover, .link:focus {
+    color: #2196F3;
+}
+.list {
+    list-style: none;
+}
+.contact {
+    color: #757575;
+}
+.contact:hover, .contact:focus {
+    color: #2196F3;
+}
+/* Герой */
+.hero, footer {
+    background-color: #2F303A;
+}
+.hero-title, .hero-button {
+    color: #FFFFFF;
+}
+/* Ососбенности */
+.title {
+    color: #212121;
+}
+.text {
+    color: #757575;
+}
+/* Чем мы занимаемся */
+.about-title {
+    color: #212121;
+}
+/* Команда */
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
+    color: #212121;
+}
+
+/* Подвал */
+.logo-footer {
+    color: #FFFFFF;
+}
+.address {
+    color: #FFFFFF;
+}
+.mail, .tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Примеры работ кнопки */
+.exmp-button {
+    background-color: #F5F4FA;
+    color: #212121;
+    border: none;
+}
+.exmp-button:hover, .exmp-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.examples {
+    border-color: #EEEEEE;
+    border: solid;
+    border-width: 1px;
+}
