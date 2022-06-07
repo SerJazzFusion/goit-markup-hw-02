@@ -1,82 +1,96 @@
 /* основной цвет текста  #212121 */
 /* вторичный цвет текста #757575 */
-/* контакты в подвале rgba(255, 255, 255, 0.6); */
+/* доп. цвет текста rgba(255, 255, 255, 0.6); */
 /* акцент #2196F3 */
 /* белый #FFFFFF */
+/* цвет фона #F5F4FA */
+:root {
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --accent-color: #2196F3;
+    --white: #FFFFFF;
+}
 
+body {
+    font-family: Roboto;
+    color: var(--primary-text-color);
+}
 /* Шапка */
 header, .card {
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logo-back {
-   color: #212121; 
+   color: var(--primary-text-color); 
 }
 .link {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .link:hover, .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .list {
     list-style: none;
 }
 .contact {
-    color: #757575;
+    color: var(--second-text-color);
 }
 .contact:hover, .contact:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 /* Герой */
 .hero, footer {
     background-color: #2F303A;
 }
 .hero-title, .hero-button {
-    color: #FFFFFF;
+    color: var(--white);
 }
 /* Ососбенности */
 .title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .text {
-    color: #757575;
+    color: var(--second-text-color);
 }
 /* Чем мы занимаемся */
 .about-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 /* Команда */
 .team {
     background-color: #F5F4FA;
 }
 .team-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 /* Подвал */
-.logo-footer {
-    color: #FFFFFF;
-}
-.address {
-    color: #FFFFFF;
+.logo-footer, .address {
+    color: var(--white);
 }
 .mail, .tel {
     color: rgba(255, 255, 255, 0.6);
 }
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus,
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+}
 /* Примеры работ кнопки */
 .exmp-button {
     background-color: #F5F4FA;
-    color: #212121;
+    color: var(--primary-text-color);
     border: none;
 }
 .exmp-button:hover, .exmp-button:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--accent-color);
+    color: var(--white);
 }
 .examples {
-    border-color: #EEEEEE;
-    border: solid;
-    border-width: 1px;
+    border: 1px solid #EEEEEE;
 }
