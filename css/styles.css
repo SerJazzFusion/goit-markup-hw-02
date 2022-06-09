@@ -88,7 +88,7 @@ body {
   line-height: 1.14;
 }
 .card .title, .card .text {
-  text-align: center;
+  text-align: start;
 }
 /* Чем мы занимаемся */
 .about-title {
