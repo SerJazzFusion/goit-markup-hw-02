@@ -81,12 +81,13 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
 }
 .text {
   color: var(--second-text-color);
   font-size: 14px;
   line-height: 1.14;
+}
+.card .title, .card .text {
   text-align: center;
 }
 /* Чем мы занимаемся */
